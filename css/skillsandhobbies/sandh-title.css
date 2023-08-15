@@ -6,6 +6,13 @@
     color: var(--sandh-tittle-color);
 }
 
+@media screen and (max-width: 885px) {
+
+    .sandh-title {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 450px) {
 
     .sandh-title {
