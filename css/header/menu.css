@@ -12,11 +12,11 @@ input[type="checkbox"] {
 
   .menu .menu-item {
     width: 100%;
-    margin: 1.5rem 0;
+    margin: 1.25rem 0;
   }
 
   .menu .menu-link {
-    font-size: 2rem;
+    font-size: 1.775rem;
     font-weight: 500;
   }
 

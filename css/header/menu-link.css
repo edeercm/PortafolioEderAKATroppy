@@ -47,13 +47,13 @@
 @media (max-width: 920px) {
 
   .menu-link:before {
-    height: 4.75px;
-    bottom: -0.5rem;
+    height: 4.25px;
+    bottom: -0.25rem;
   }
 
   .menu-link:after {
-    height: 4.75px;
-    bottom: -0.5rem;
+    height: 4.25px;
+    bottom: -0.25rem;
   }
 
 }
