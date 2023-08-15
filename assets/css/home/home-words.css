@@ -1,0 +1,76 @@
+.home-words {
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 400;
+    color: var(--homewords-font-color);
+    text-align: center;
+    text-shadow: 0 0 0.425rem var(--homewords-shadow-color);
+}
+
+.word__1 {  
+    font-size: 5.175rem;
+    letter-spacing: 0.175rem;
+
+}
+
+.word__2,
+.word__3 {
+    font-size: 6.425rem;
+    letter-spacing: 0.175rem;
+
+}
+
+.home-words {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 550ms;
+}
+
+@-webkit-keyframes zoomIn {
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.25, .25, .25);
+        transform: scale3d(.25, .25, .25);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.25, .25, .25);
+        transform: scale3d(.25, .25, .25);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    .word__1 {
+        font-size: 2.75rem;
+        letter-spacing: 0.105rem; 
+    }
+
+    .word__2,
+    .word__3 {
+        font-size: 3.5rem;
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+.footer-img {
+    width: 20%;
+}
+
+@media screen and (max-width: 885px) {
+
+    .footer-img {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .footer-img {
+        width: 80%;
+    }
+
+}

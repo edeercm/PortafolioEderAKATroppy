@@ -1,0 +1,6 @@
+.card__skill-percent--number {
+    font-family: var(--poppins);
+    color: var(--card-font-color);
+    margin-left: 5px;
+    font-size: 0.775rem;
+}

@@ -1,0 +1,40 @@
+.skillsandhobbies {
+    background-color: var(--sandh-bg-color);
+}
+
+.skillsandhobbies-container {
+    height: 100vh;
+}
+
+.skillsandhobbies-subcontainer {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 885px) {
+
+    .skillsandhobbies-container {
+        height: 90vh;
+        padding: 3.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .skillsandhobbies-container {
+        height: 100%;
+        padding: 3rem;
+    }
+
+    .skillsandhobbies-subcontainer {
+        padding: 0.375rem;
+
+    }
+    
+}
+
+

@@ -1,0 +1,17 @@
+.contactme-btn {
+    margin-top: 2.615rem;
+    padding: 12.5px 25px;
+    background-color: var(--contactme-btnbg-color);
+    font-size: 1.025rem;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--contactme-btnfont-color);
+    border: transparent;
+    border-radius: 0.315rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.contactme-btn:hover {
+    background-color: var(--contactme-btnbghover-color);
+}

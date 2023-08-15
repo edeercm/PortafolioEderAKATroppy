@@ -1,0 +1,10 @@
+.card__skill-level {
+    align-items: center;
+    width: 75px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #FFFBEB;
+    
+
+}

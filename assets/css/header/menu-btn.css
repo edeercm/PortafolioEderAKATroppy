@@ -1,0 +1,18 @@
+.menu-btn i {
+    margin-right: 3.25rem;
+    color: var(--header-mobilebtn-color);
+    font-size: 22px;
+    cursor: pointer;
+    display: none;     
+}
+
+@media (max-width: 920px) {
+    .menu-btn i{
+      display: block;
+    }
+
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+}
+  

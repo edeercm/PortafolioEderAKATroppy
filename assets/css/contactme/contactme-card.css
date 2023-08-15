@@ -1,0 +1,17 @@
+.contactme-card {
+    height: 490px;
+    width: 715px;
+    padding: 50px 35px;
+    border-radius: 0.755rem;
+    background-color: var(--contactme-cardbg-color);
+}
+
+@media screen and (max-width: 450px) {
+
+    .contactme-card {
+        height: 450px;
+        width: 400px;
+    }
+    
+    
+}

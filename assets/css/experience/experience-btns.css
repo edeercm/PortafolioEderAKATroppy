@@ -1,0 +1,14 @@
+.experience-btn {
+    margin-right: 0.275rem;
+    padding: 0.447rem 0.938rem;
+    background-color: var(--experience-btn-bg-color);
+    font-size: 0.975rem;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--experience-btn-color);
+    border: transparent;
+    border-radius: 0.215rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+

@@ -1,0 +1,24 @@
+.contactme-socialmedia {
+    margin-top: 1rem;
+}
+
+.contactme-socialmedia i {
+    margin: 0.475rem;
+}
+
+.bi-instagram,
+.bi-github,
+.bi-linkedin,
+.bi-explicit-fill {
+    font-size: 1.715rem;
+    color: var(--contactme-icons-color);
+   
+}
+
+.bi-instagram:hover,
+.bi-github:hover,
+.bi-linkedin:hover,
+.bi-explicit-fill:hover {
+    font-size: 1.745rem;
+    color: var(--contactme-iconshover-color);
+}

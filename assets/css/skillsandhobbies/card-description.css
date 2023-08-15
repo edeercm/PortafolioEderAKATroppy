@@ -1,0 +1,15 @@
+.card__description {
+    font-family: var(--poppins);
+    font-size: 1.275rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--card-font-color);
+}
+
+.card__description-2 {
+    font-family: var(--poppins);
+    font-size: 1.575rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--card-font-color);
+}

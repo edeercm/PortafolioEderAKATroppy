@@ -1,0 +1,29 @@
+.education-card-firts {
+	width: 640px;
+    height: 175px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0.465rem;
+	border-radius: 0.275rem;
+	background-color: var(--educard-bg-color);
+}
+
+@media screen and (max-width: 450px) {
+
+	.education-card-firts {
+		display: flex;
+		flex-direction: column;
+		width: 315px;
+    	height: 275px;
+	
+	
+	}
+
+    
+}
+
+
+
+

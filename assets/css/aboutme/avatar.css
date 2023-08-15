@@ -1,0 +1,34 @@
+.avatar {
+    margin-left: 6.75rem;
+}
+
+.avatar-img {
+    width: 280px;
+    border-radius: 67% 33% 61% 39% / 47% 30% 70% 53%;
+}
+
+
+@media screen and (max-width: 885px) {
+
+    .avatar {
+        margin-top: 6rem;
+        margin-left: 0;
+    }
+
+    .avatar-img {
+        width: 325px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .avatar {
+        margin-top: 2.5rem;
+        margin-left: 0;
+    }
+
+    .avatar-img {
+        width: 280px;
+    }  
+}

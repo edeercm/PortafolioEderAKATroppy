@@ -1,0 +1,25 @@
+.aboutme {
+    background-color: var(--aboutme-bg-color)
+}
+
+.aboutme-container {
+    height: 32.5rem;
+}
+
+
+@media screen and (max-width: 885px) {
+
+    .aboutme-container{
+        height: 90vh;
+        padding: 1rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+
+    .aboutme-container{
+        height: 100%;
+        padding: 1rem;
+    }
+    
+}

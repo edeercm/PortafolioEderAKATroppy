@@ -1,0 +1,18 @@
+.sandh-title {
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size: 5.775rem;
+    letter-spacing: 0.050rem;
+    color: var(--sandh-tittle-color);
+}
+
+@media screen and (max-width: 450px) {
+
+    .sandh-title {
+        text-align: center;
+        margin-top: 1.25rem;
+        font-size: 3.725rem;
+        padding-bottom: 2.275rem;
+    }
+    
+}

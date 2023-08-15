@@ -1,0 +1,20 @@
+.contactme-title {
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem; 
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size: 5.775rem;
+    letter-spacing: 0.125rem;
+    color: var(--contactme-tittle-color);
+}
+
+@media screen and (max-width: 450px) {
+
+    .contactme-title {
+        /* margin-top: 5rem; */
+        font-size: 5.075rem;
+        text-align: center;
+    }
+    
+    
+}

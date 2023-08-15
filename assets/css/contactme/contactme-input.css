@@ -1,0 +1,10 @@
+.contactme-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem;
+    font-weight: 600;
+    box-sizing: border-box;
+
+}
+

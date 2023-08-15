@@ -1,0 +1,25 @@
+.highlights {
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: var(--poppins);
+    font-size: 1.775rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--aboutme-highlights-color);
+    padding: 2.995rem;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .highlights {
+        height: 100vh;
+        font-size: 1.690rem;
+        padding: 0;
+    }
+    
+}
+
+

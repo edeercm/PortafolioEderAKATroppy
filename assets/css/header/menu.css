@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+
+@media (max-width: 920px) {
+
+  .menu .menu-item {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .menu .menu-link {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+}
+
+
+
+
+
+
+

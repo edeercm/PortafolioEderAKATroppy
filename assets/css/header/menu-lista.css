@@ -1,0 +1,27 @@
+.menu-lista {
+  margin-right: 3.25rem;
+  display: flex;
+
+}
+
+@media (max-width: 920px) {
+  #click:checked ~ .menu-lista {
+    left: 0;
+  }
+
+  .menu-lista {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 54.5px;
+    left: 100%;
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    background: var(--header-menubg-color);
+    transition: all .65s ease-in-out;
+  }
+
+}

@@ -1,0 +1,20 @@
+.education-card-secondary {
+	width: 315px;
+    height: 195px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-left: -0.465rem;
+	margin-right: -0.465rem;
+	border-radius: 0.275rem;
+	background-color: var(--educard-bg-color);
+}
+
+@media screen and (max-width: 450px) {
+
+	.education-card-secondary {
+		margin: 0.465rem;
+	}
+    
+}

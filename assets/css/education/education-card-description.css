@@ -1,0 +1,17 @@
+.education-card-description {
+    font-family: var(--poppins);
+    font-size: 1.105rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--educard-description-color);
+}
+
+.education-card-description p {
+    margin-bottom: 7.5px;
+}
+
+.bi-link-45deg {
+    font-size: 1rem;
+    color:  var(--educard-bi-color)
+}
+

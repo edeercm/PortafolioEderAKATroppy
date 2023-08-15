@@ -1,0 +1,25 @@
+.education {
+    background-color: var(--education-bg-color);
+}
+
+.education-container {
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 885px) {
+
+    .education-container {
+        height: 90vh;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .education-container {
+        height: 100%;
+        padding: 2rem;
+    }
+    
+}

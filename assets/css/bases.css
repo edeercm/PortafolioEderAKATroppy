@@ -1,0 +1,59 @@
+:root {
+    
+    /* --- Font --- */
+    --poppins: 'Poppins', sans-serif;
+
+    /* --- Header --- */
+    --header-bg-color: #050505;
+    --header-link-color: #ECF8F8;
+    --header-mobilebtn-color: #ECF8F8;
+    --header-menubg-color: #050505;
+
+    /* --- Home --- */
+    --homewords-font-color:#FFFFFF;
+    --homewords-shadow-color:#F5F6F7;
+
+    /* --- About Me --- */
+    --aboutme-bg-color:#ECF8F8;
+    --aboutme-highlights-color:#050505;
+
+    /* --- Skills and Hobbies --- */
+    --sandh-bg-color:#050505;
+    --sandh-tittle-color:#FFFFFF;
+    --card-bg-color:#303B87;
+    --card-font-color:#ECF8F8;
+
+    /* --- Education --- */
+    --education-bg-color:#050505;
+    --education-tittle-color:#FFFFFF;
+    --educard-bg-color:#ECF8F8;
+    --educard-description-color:#050505;
+    --educard-bi-color:#303B87;
+
+    /* --- Projects - Experience --- */
+    --experience-bg-color:#050505;
+    --experience-tittle-color:#FFFFFF;
+    --experience-btn-bg-color:#a93f55;
+    --experience-btn-color:#ECF8F8;
+
+    /* --- Contact Me --- */
+    --contactme-tittle-color: #FFFFFF;
+    --contactme-cardbg-color: #F5F3F4;
+    --contactme-label-color: #050505;
+    --contactme-labelfocus-color: #26388A;
+    --contactme-input-color: #26388A;
+    --contactme-btnbg-color: #000000;
+    --contactme-btnfont-color: #FFFFFF;
+    --contactme-btnbghover-color: #26388A;
+    --contactme-icons-color: #050505;
+    --contactme-iconshover-color:#26388A;
+
+    /* --- Footer --- */
+
+    --footer-bg-color:#050505;
+
+
+    
+
+}
+

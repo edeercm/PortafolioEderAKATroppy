@@ -1,0 +1,34 @@
+.experience {
+    background-color: var(--experience-bg-color);
+}
+
+.experience-container {
+    height: 100vh;
+}
+
+.experience-subcontainer {
+    height: 70vh;
+}
+
+@media screen and (max-width: 450px) {
+
+    .experience-container {
+        height: 75vh;
+    }
+
+    .experience-subcontainer {
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (max-width: 885px) {
+
+    .experience-container {
+        height: 90vh;
+    }
+    
+    .experience-subcontainer {
+        height: 45vh;
+    }
+}
