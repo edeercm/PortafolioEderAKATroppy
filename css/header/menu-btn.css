@@ -9,6 +9,7 @@
 @media (max-width: 920px) {
     .menu-btn i{
       display: block;
+      margin-right: 0;
     }
 
     #click:checked ~ .menu-btn i:before{
