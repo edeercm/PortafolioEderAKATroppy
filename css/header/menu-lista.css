@@ -1,12 +1,12 @@
-.menu-lista {
-  margin-right: 3.25rem;
+/* .menu-lista {
   display: flex;
-
-}
+} */
 
 @media (max-width: 920px) {
+  
   #click:checked ~ .menu-lista {
     left: 0;
+    right: 0;
   }
 
   .menu-lista {
