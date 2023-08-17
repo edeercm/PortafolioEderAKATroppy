@@ -1,5 +1,4 @@
 .menu-btn i {
-    /* margin-right: 3.25rem; */
     color: var(--header-mobilebtn-color);
     font-size: 22px;
     cursor: pointer;
@@ -9,7 +8,6 @@
 @media (max-width: 920px) {
     .menu-btn i{
       display: block;
-      /* margin-right: 3.25rem; */
     }
 
     #click:checked ~ .menu-btn i:before{
